@@ -1,0 +1,5 @@
+id,fromGeneration,toGeneration,stat,minimumStage,maximumStage,rule,implementationStatus
+standard-stage,1,9,Attack,-6,6,(2+n)/2 or 2/(2-n),VerifiedRepresentative
+standard-stage-spa,1,9,SpecialAttack,-6,6,(2+n)/2 or 2/(2-n),VerifiedRepresentative
+standard-stage-speed,1,9,Speed,-6,6,(2+n)/2 or 2/(2-n),VerifiedRepresentative
+accuracy-stage,1,9,Accuracy,-6,6,(3+n)/3 or 3/(3-n),VerifiedRepresentative

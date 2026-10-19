@@ -1,0 +1,97 @@
+# Progress Log
+
+## 2026-08-09
+- Confirmed empty workspace and available .NET/Node runtimes.
+- Researched authoritative rule, protocol, runtime and IP constraints.
+- Locked implementation choices with the user: Gen I-IX traditional games, singles+doubles, all generational power-up systems, local test service, typed JSON and basic rules AI.
+- Started executable implementation plan; no Git or project-local Codex metadata created.
+- Added solution metadata, Chinese rule/protocol/configuration documentation, CSV schemas and representative Gen I-IX content.
+- Added deterministic RNG, rule profiles, damage calculation, battle state machine, generic effect execution and basic AI domain code.
+- Configuration compiler produced a validated JSON snapshot with 9 rulesets, 16 species, 36 playable moves and 4 six-member teams.
+- Added ASP.NET Core room/WebSocket/reconnect/replay surfaces; the complete C# solution builds with zero warnings.
+- Added nine domain/configuration tests, including fixed-seed singles/doubles AI soak invariants; all pass.
+- Implemented the responsive TypeScript battle/debug client with setup controls, single/double action submission, remote sprite fallback, protocol trace, snapshots and replay access.
+- Generated `BattleConfig.xlsx` with 25 filtered/frozen worksheets; formula inspection and rendered visual review passed for every sheet.
+- Verified `/health`, `/api/config` and a real WebSocket create/choose/AI/turn-advance exchange.
+- Completed in-app browser regression for singles, doubles, target/action controls, state inspector, 390x844 responsive layout, reload/reconnect restoration and browser console cleanliness.
+- Fixed reconnect UI synchronization so ruleset, format and seed reflect the restored authoritative snapshot.
+- Rebuilt the entire solution with zero warnings/errors and rebuilt the production H5 bundle.
+- Began the build/run script completion pass; confirmed there were no existing script entrypoints and recorded the required frontend-before-server build order.
+- Added environment, restore, build, test, production-run and split development-run PowerShell entrypoints plus README usage.
+- Syntax checks, environment discovery from outside the repository, locked dependency restore, Release build and standalone tests passed.
+- Found and corrected the production DLL content-root requirement during the launch health check.
+- Verified every script parses successfully; production `run.ps1` and `dev-server.ps1` returned healthy configuration snapshots, and `dev-client.ps1` served the H5 root with HTTP 200.
+- Confirmed the temporary verification processes release ports 5090, 5091 and 5173 after shutdown.
+- Completed the build/run script phase with eight PowerShell files and synchronized README documentation.
+
+## 2026-08-10
+- Started the faint-guard and battle-pacing pass; recorded the screenshot symptom and added focused implementation/test phases.
+- Traced the authoritative turn loop and frontend animation queue; the visible post-death attacks are queued historical animations rather than extra server-side damage turns.
+- Confirmed the screenshot also pairs a level-50 normal preset with a level-8 fast-regression PVE boss; selected a configuration-driven per-move damage ceiling plus level rebalance as the pacing strategy.
+- Located the generation-constant compiler path and chose a 45%-of-max-HP budget shared by all hits/effect damage in one move.
+- Added the CSV-driven damage ceiling, applied it across regular/multi-hit/fixed damage, rebalanced PVE levels/moves, added terminal animation backlog cancellation, and added focused faint/damage regression tests.
+- Recompiled runtime configuration (`9ec3430cc139d5eef7e2ec94d132c739c5d2bae6e0d6928cb1b3b5f57fc46f70`), built the H5 production bundle, built .NET Release with zero warnings/errors, and passed all 18 tests in 88 ms.
+- Confirmed generated runtime PVE scout/boss members are level 50 with the intended four-move sets; completed the faint-guard and pacing pass.
+- Tightened terminal presentation by hiding the move banner as soon as its damage event reaches 0 HP.
+- Rebuilt the final H5 production bundle after the 0-HP banner change; TypeScript and Vite completed successfully.
+- Started the four-move/ability and 15-second authoritative choice-timer pass; recovered prior session context and added implementation/verification phases.
+- Audited all 36 configured combatants (all already have four moves and abilities), then traced compiler validation, manual/special-action UI, and serialized room choice handling.
+- Inspected legal-choice records and H5 rendering; selected richer legal move metadata, clickable skill cards, server UTC deadline data, and an injectable room timeout for regression testing.
+- Enforced four distinct moves plus a configured ability, enriched legal move metadata, and implemented the server-side 15-second deadline/fallback scheduler with snapshot deadline metadata.
+- Replaced the move dropdown with four clickable localized skill cards, PP display, target/strengthening controls, a server-synchronized countdown, timeout timeline feedback, responsive styling, and protocol/rules documentation.
+- Completed live UI regression: four skills rendered, manual Bullet Seed advanced a turn, Gen 6 exposed Mega, the real 15-second timeout auto-advanced with a timeline event, and browser warning/error logs remained empty.
+- Rebuilt the final H5 and .NET Release outputs in production order, passed all 19 tests in 167 ms with zero build warnings/errors, stopped the validation server, and confirmed port 5080 is released.
+- Preserved configured abilities in Gen 1/2 lab battles and added a cross-ruleset test asserting every runtime combatant has four moves plus an ability.
+- Rebuilt Release and passed the final 20-test suite in 164 ms with zero warnings/errors.
+- Configuration compilation succeeded; the first Release compile exposed and then corrected the timer test project's duplicate JSON import and missing ASP.NET shared-framework reference.
+- Started the 2D battlefield actor pass and chose to reuse configured per-creature sprite URLs with an animated CSS silhouette fallback rather than generating an unmappable one-off image asset.
+- Added an independent battlefield actor layer, player back-sprite fallback logic, animated local silhouettes, ground shadows/aura/nameplates, compact HUD cards and responsive desktop/mobile positioning.
+- Retargeted move, hit, heal, ability, entry, faint and floating-number animations from whole HUD cards to the large battlefield actors.
+- Added and built the prior in-battle exit action; it reuses authoritative forfeit handling and shows the controlling player a failure result.
+- Started the auto-battle pass; confirmed the existing server AI/`setAi` path is the correct authority boundary and identified the multi-wave dungeon continuation gap.
+- Added the contextual `自动战斗` button, disabled local choices immediately after takeover, and hid the action for PVP, ended battles and already-AI-controlled sides.
+- Allowed authenticated side takeover in Practice and Dungeon, suppressed legal choices for AI-controlled sides, and changed dungeon advancement to continue AI-controlled waves through one terminal completion/failure event.
+- Release solution build completed with zero warnings/errors; all 16 domain tests passed and the final Vite/TypeScript production build succeeded.
+- Completed live WebSocket regression for Practice auto battle (28 turns, 51 moves, 8 switches, 9 faints) and full two-wave Dungeon auto battle (wave 2 reached and dungeon completed).
+- Stopped the owned validation server after regression.
+- Started the battlefield animation pass and recorded the user-supplied layout constraints and presentation-only architecture decision.
+- Added an event-driven client animation coordinator plus themed move projectiles, attack lunges, impacts, floating combat text, HP transitions, entry/faint and power-up effects.
+- The strict TypeScript stage passed; the subsequent Vite bundle step hit the known restricted-sandbox `spawn EPERM` boundary and requires an approved build rerun.
+- Completed a live AI battle regression: WebSocket connected, move selection advanced the turn, the animation queue became active, `魔幻假面喵` received the acting class, the move banner showed `终极吸取`, and a themed projectile was present.
+- Confirmed post-animation HP synchronized to the authoritative snapshot (`谜拟丘 130/162`, `魔幻假面喵 138/183`) and the next turn controls became available.
+- Corrected `giga-drain` theme detection from water to nature after the live capture exposed substring overlap, then rebuilt the final production H5 successfully (6 transformed modules, no TypeScript errors).
+- Added reduced-motion handling, duplicate-event suppression, battle/reset boundaries and interaction locking while visual sequences play; the owned test server stopped and port 5080 was released.
+- Started the real-time two-player PVP and configurable PVE dungeon iteration; retained the local in-memory/no-account scope.
+- Added battle modes, dungeon state fields, PVE dungeon/wave definitions and compiler validation.
+- Added the two-wave `test-training-ground` dungeon plus low-level scout and boss preset teams for fast end-to-end testing.
+- Added engine-level wave transition, optional player restoration, enemy-party replacement, deterministic wave reseeding, completion/failure and reward events.
+- Added PVP join codes, side-1 claiming, controller validation, room readiness state and new create/join dungeon protocol commands.
+- Expanded automated coverage to 16 passing tests, including configured wave transition/restoration and reward completion metadata.
+- Extended the H5 setup with AI practice, real-time PVP and PVE dungeon modes, join-code controls, room readiness, controlling-side display and dungeon wave/reward status.
+- Extended the TypeScript protocol with battle modes, dungeon summaries, room state and replay dungeon metadata; the production H5 build succeeds.
+- Verified two live browser clients can create/join a PVP room, receive distinct controlling sides and resolve a turn after both choices are submitted; fixed locked-choice snapshot suppression found during the test.
+- Verified the test dungeon creates wave 1, defeats its one-member scout and emits `DungeonWaveCompleted`/boss `DungeonWaveStarted`; fixed missing active slots on the replacement boss side found by this regression.
+- Re-ran the dungeon end to end: wave 2 has an active/legal boss target, the second victory emits completion, and the H5 shows `WAVE 2 / 2 · 已完成`, `副本通关` and `TestToken × 100`.
+- Re-tested PVP after the snapshot fix: the locked player receives no legal controls, waits for the opponent, and both clients advance to turn 2 after the second submission.
+- Completed a desktop visual pass of the dungeon completion screen; the scenario controls, reward card, battle result and event timeline remain readable.
+- Added PVP/PVE scenarios and expected events, completed protocol/configuration/README updates, and added a dedicated Chinese PVE dungeon guide.
+- Regenerated `BattleConfig.xlsx` with 27 worksheets; Summary, both PVE sheets, TestScenarios and MechanicsCoverage passed focused visual review and formula-error scanning returned no matches.
+- Hardened room reassignment and concurrent session enumeration so a client can leave one room before creating, joining or reconnecting to another without receiving cross-room broadcasts.
+- Completed the final Release pipeline with configuration hash `0dc790a0dfb4919999121d584b658c229afc2152618c163c02d634d94bc62d9f`, zero warnings/errors and all 16 tests passing.
+- Verified the Release server serves the H5 root with HTTP 200 and exposes one two-wave `test-training-ground` dungeon; port 5080 is released after shutdown.
+- Started the ability/debug/replay iteration and fixed the scope: authoritative ability hooks, structured battle diagnostics, and a versioned replay artifact with step playback.
+- Added deterministic team member instance IDs, replay command/debug records, mutable runtime ability state and an ability modifier rules layer.
+- Implemented authoritative hooks for damage modifiers, type immunities, contact reactions, entry effects, Protean/Trace state, Sturdy survival and rain speed changes; every activation emits an event.
+- Expanded `Abilities.csv` from 12 to 19 entries, assigned Multiscale to representative Dragonite presets, and added compiler validation for ability references.
+- Added five focused ability/replay-diagnostic tests; the suite now has 14 passing tests covering entry, immunity, damage boost, type change and command/debug capture.
+- Added versioned replay artifacts with initial/final snapshots, commands, events, SHA-256 event hash and integrity checks.
+- Added room-scoped structured diagnostics with WebSocket and filtered HTTP access plus structured ASP.NET logging.
+- Extended the H5 inspector with ability chips, a filterable server-log tab, replay import/download, integrity status, previous/next controls and timed step playback.
+- Recompiled the runtime snapshot with hash `dc4ada84c7fd2af1f510012bc6822ea7208282a1046cb5bfb1864d600e23909a`.
+- Regenerated `BattleConfig.xlsx`; all 25 sheets were rendered, the Summary/Abilities/PresetTeams/MechanicsCoverage sheets passed focused visual review, and the formula-error scan returned no matches.
+- Completed browser regression for doubles ability activation, structured log filtering and replay step playback with no browser console warnings or errors.
+- Completed the full Release build pipeline with zero warnings/errors and all 14 tests passing.
+- Verified `scripts/run.ps1 -Configuration Release -NoBuild` serves the production H5 root with HTTP 200 and releases port 5080 after shutdown.
+- Added a dedicated battlefield actor layer that enlarges every configured combatant independently of its compact HUD card, prefers animated back sprites for the player side and falls back through front sprites to a CSS silhouette.
+- Retargeted move, damage, heal, switch, faint, ability and status feedback to the battlefield actors, including idle breathing, directional lunges, hit shake, entrance/faint motion, auras, shadows, projectiles and combat float text.
+- Rebuilt the production client successfully and completed a live WebSocket regression: both sprites loaded, the player lunge and defender hit animations were captured with effects active, no browser warnings/errors were reported, and the owned test server was stopped.

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="../PokeBattle.Domain/PokeBattle.Domain.csproj" />
+    <Content Include="../../data/runtime/battle-config.json" Link="data/runtime/battle-config.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

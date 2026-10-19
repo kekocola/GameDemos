@@ -1,0 +1,17 @@
+id,pokedexNumber,nameZh,nameEn,type1,type2,hp,attack,defense,specialAttack,specialDefense,speed,spriteUrl,fromGeneration,sourceId,implementationStatus
+venusaur,3,妙蛙花,Venusaur,Grass,Poison,80,82,83,100,100,80,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png,1,src-pokeapi,VerifiedRepresentative
+charizard,6,喷火龙,Charizard,Fire,Flying,78,84,78,109,85,100,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png,1,src-pokeapi,VerifiedRepresentative
+blastoise,9,水箭龟,Blastoise,Water,,79,83,100,85,105,78,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png,1,src-pokeapi,VerifiedRepresentative
+pikachu,25,皮卡丘,Pikachu,Electric,,35,55,40,50,50,90,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png,1,src-pokeapi,VerifiedRepresentative
+gengar,94,耿鬼,Gengar,Ghost,Poison,60,65,60,130,75,110,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png,1,src-pokeapi,VerifiedRepresentative
+snorlax,143,卡比兽,Snorlax,Normal,,160,110,65,65,110,30,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png,1,src-pokeapi,VerifiedRepresentative
+dragonite,149,快龙,Dragonite,Dragon,Flying,91,134,95,100,100,80,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png,1,src-pokeapi,VerifiedRepresentative
+scizor,212,巨钳螳螂,Scizor,Bug,Steel,70,130,100,55,80,65,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png,2,src-pokeapi,VerifiedRepresentative
+tyranitar,248,班基拉斯,Tyranitar,Rock,Dark,100,134,110,95,100,61,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/248.png,2,src-pokeapi,VerifiedRepresentative
+gardevoir,282,沙奈朵,Gardevoir,Psychic,Fairy,68,65,65,125,115,80,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/282.png,3,src-pokeapi,VerifiedRepresentative
+garchomp,445,烈咬陆鲨,Garchomp,Dragon,Ground,108,130,95,80,85,102,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/445.png,4,src-pokeapi,VerifiedRepresentative
+lucario,448,路卡利欧,Lucario,Fighting,Steel,70,110,70,115,70,90,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png,4,src-pokeapi,VerifiedRepresentative
+greninja,658,甲贺忍蛙,Greninja,Water,Dark,72,95,67,103,71,122,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/658.png,6,src-pokeapi,VerifiedRepresentative
+mimikyu,778,谜拟丘,Mimikyu,Ghost,Fairy,55,90,80,50,105,96,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png,7,src-pokeapi,VerifiedRepresentative
+corviknight,823,钢铠鸦,Corviknight,Flying,Steel,98,87,105,53,85,67,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/823.png,8,src-pokeapi,VerifiedRepresentative
+meowscarada,908,魔幻假面喵,Meowscarada,Grass,Dark,76,110,70,81,70,123,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/908.png,9,src-pokeapi,VerifiedRepresentative

@@ -1,0 +1,11 @@
+id,nameZh,fromGeneration,toGeneration,effectKey,sourceId,implementationStatus
+leftovers,吃剩的东西,2,9,end-turn-heal,src-pokeapi,VerifiedRepresentative
+life-orb,生命宝珠,4,9,damage-and-recoil,src-pokeapi,Planned
+choice-band,讲究头带,3,9,attack-lock,src-pokeapi,Planned
+choice-scarf,讲究围巾,4,9,speed-lock,src-pokeapi,Planned
+focus-sash,气势披带,4,9,survive-full-hp,src-pokeapi,Planned
+lum-berry,木子果,3,9,cure-status,src-pokeapi,Planned
+heat-rock,炽热岩石,4,9,extend-sun,src-pokeapi,Planned
+damp-rock,潮湿岩石,4,9,extend-rain,src-pokeapi,Planned
+smooth-rock,沙沙岩石,4,9,extend-sand,src-pokeapi,Planned
+icy-rock,冰冷岩石,4,9,extend-ice-weather,src-pokeapi,Planned

@@ -1,0 +1,7 @@
+id,nameZh,mode,dungeonId,rulesetId,format,team1Id,team2Id,seed,description,implementationStatus
+damage-ice-example,伤害分解基线,Practice,,gen9-sv,Singles,classic-red,classic-blue,75,固定种子检查逐步伤害与属性修正,VerifiedRepresentative
+priority-quick-attack,优先度覆盖速度,Practice,,gen1-rby,Singles,classic-red,classic-blue,101,较慢单位先制招式应先执行,VerifiedRepresentative
+doubles-spread,双打群体衰减,Practice,,gen9-sv,Doubles,modern-violet,modern-scarlet,2026,冲浪或地震命中两个目标并应用群体修正,VerifiedRepresentative
+tera-once,太晶化每方一次,Practice,,gen9-sv,Singles,modern-violet,modern-scarlet,909,第二次太晶选择必须被拒绝,VerifiedRepresentative
+pvp-two-client,双端实时PVP,Pvp,,gen9-sv,Singles,modern-violet,modern-scarlet,20260809,两名WebSocket玩家分别认领阵营并同时锁定后推进回合,VerifiedRepresentative
+pve-test-dungeon,两波测试副本,Dungeon,test-training-ground,gen9-sv,Singles,modern-violet,pve-test-scout,20260809,击败侦察波与Boss波并校验奖励完成事件,VerifiedRepresentative

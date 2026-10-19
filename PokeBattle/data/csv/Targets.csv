@@ -1,0 +1,6 @@
+id,nameZh,description,implementationStatus
+Self,自身,技能使用者,VerifiedRepresentative
+Opponent,单个对手,选择一个敌方活动位置,VerifiedRepresentative
+AllOpponents,所有对手,命中全部敌方活动位置,VerifiedRepresentative
+Ally,一个同伴,双打中的另一个己方位置,VerifiedRepresentative
+AllActive,全场,所有活动位置或战场状态,VerifiedRepresentative

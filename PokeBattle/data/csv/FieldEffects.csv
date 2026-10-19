@@ -1,0 +1,8 @@
+id,nameZh,kind,defaultTurns,description,implementationStatus
+sun,晴天,Weather,5,火属性增强水属性减弱,VerifiedRepresentative
+rain,雨天,Weather,5,水属性增强火属性减弱,VerifiedRepresentative
+sandstorm,沙暴,Weather,5,非岩地钢属性受到回合末伤害,VerifiedRepresentative
+hail,冰雹,Weather,5,非冰属性受到回合末伤害,VerifiedRepresentative
+snow,雪,Weather,5,冰属性防御提升,VerifiedRepresentative
+electric,电气场地,Terrain,5,代表性场地状态；完整招式与睡眠交互待扩展,ImplementedUnverified
+psychic,精神场地,Terrain,5,代表性场地状态；先制阻挡待扩展,ImplementedUnverified

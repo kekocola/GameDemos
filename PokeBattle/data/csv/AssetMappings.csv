@@ -1,0 +1,4 @@
+speciesId,remoteUrl,fallbackLabel,policy
+pikachu,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png,PIKA,RemoteDevOnly
+charizard,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png,CHAR,RemoteDevOnly
+blastoise,https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png,BLAS,RemoteDevOnly

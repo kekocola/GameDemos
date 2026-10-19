@@ -1,0 +1,10 @@
+generation,criticalMultiplier,randomMin,randomMax,maxDamageFractionPerMove,burnResidualDenominator,categoryByType,hasAbilities,hasItems,iceWeather,specialMechanic
+1,2.0,217,255,0.45,16,true,false,false,None,None
+2,2.0,217,255,0.45,8,true,false,true,Hail,None
+3,2.0,85,100,0.45,8,true,true,true,Hail,None
+4,2.0,85,100,0.45,8,false,true,true,Hail,None
+5,2.0,85,100,0.45,8,false,true,true,Hail,None
+6,1.5,85,100,0.45,8,false,true,true,Hail,Mega
+7,1.5,85,100,0.45,16,false,true,true,Hail,ZMove
+8,1.5,85,100,0.45,16,false,true,true,Hail,Dynamax
+9,1.5,85,100,0.45,16,false,true,true,Snow,Terastallize

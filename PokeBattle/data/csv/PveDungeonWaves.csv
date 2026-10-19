@@ -1,0 +1,3 @@
+dungeonId,wave,nameZh,enemyTeamId,enemyPartySize,restorePlayerTeam,boss,seedOffset,notes,sourceId,implementationStatus
+test-training-ground,1,侦察训练,pve-test-scout,1,true,false,0,单只低等级皮卡丘用于快速验证首波,src-local-pve,VerifiedRepresentative
+test-training-ground,2,守关测试,pve-test-boss,1,true,true,100,单只低等级卡比兽用于验证Boss与奖励结算,src-local-pve,VerifiedRepresentative

@@ -1,0 +1,7 @@
+id,nameZh,residualRule,actionRule,fromGeneration,toGeneration,implementationStatus
+Burn,灼伤,Gen2-6 1/8; Gen7+ 1/16,物理伤害减半,1,9,VerifiedRepresentative
+Poison,中毒,1/8,None,1,9,VerifiedRepresentative
+BadPoison,剧毒,递增1/16,None,1,9,VerifiedRepresentative
+Paralysis,麻痹,None,25%跳过行动并降低速度,1,9,VerifiedRepresentative
+Sleep,睡眠,None,持续回合不能行动,1,9,VerifiedRepresentative
+Freeze,冰冻,None,20%自然解冻代表规则,1,9,ImplementedUnverified

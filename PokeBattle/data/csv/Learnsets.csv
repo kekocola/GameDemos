@@ -1,0 +1,7 @@
+speciesId,moveId,fromGeneration,toGeneration,method,implementationStatus
+charizard,flamethrower,1,9,representative,VerifiedRepresentative
+blastoise,surf,1,9,representative,VerifiedRepresentative
+pikachu,thunderbolt,1,9,representative,VerifiedRepresentative
+gengar,shadow-ball,2,9,representative,VerifiedRepresentative
+garchomp,earthquake,4,9,representative,VerifiedRepresentative
+gardevoir,moonblast,6,9,representative,VerifiedRepresentative

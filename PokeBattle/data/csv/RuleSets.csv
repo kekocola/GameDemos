@@ -1,0 +1,10 @@
+id,generation,nameZh,versionGroup,specialMechanic,sourceId,implementationStatus
+gen1-rby,1,第一世代 红绿蓝黄,RBY,None,src-52-damage,VerifiedRepresentative
+gen2-gsc,2,第二世代 金银水晶,GSC,None,src-52-damage,VerifiedRepresentative
+gen3-rse,3,第三世代 红蓝绿宝石,RSE,None,src-showdown,VerifiedRepresentative
+gen4-dppt,4,第四世代 钻珍白金,DPPT,None,src-showdown,VerifiedRepresentative
+gen5-bw,5,第五世代 黑白与黑白2,BW-B2W2,None,src-showdown,VerifiedRepresentative
+gen6-xy,6,第六世代 XY与ORAS,XY-ORAS,Mega,src-showdown,VerifiedRepresentative
+gen7-sm,7,第七世代 日月与究极日月,SM-USUM,ZMove,src-showdown,VerifiedRepresentative
+gen8-swsh,8,第八世代 剑盾,SWSH,Dynamax,src-showdown,VerifiedRepresentative
+gen9-sv,9,第九世代 朱紫,SV,Terastallize,src-showdown,VerifiedRepresentative

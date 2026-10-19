@@ -1,0 +1,41 @@
+id,nameZh,nameEn,type,category,power,accuracy,pp,priority,target,effectId,fromGeneration,toGeneration,makesContact,sound,sourceId,implementationStatus
+tackle,撞击,Tackle,Normal,Physical,40,100,35,0,Opponent,damage,1,9,true,false,src-pokeapi,VerifiedRepresentative
+quick-attack,电光一闪,Quick Attack,Normal,Physical,40,100,30,1,Opponent,damage,1,9,true,false,src-52-priority,VerifiedRepresentative
+protect,守住,Protect,Normal,Status,0,0,10,4,Self,protect,2,9,false,false,src-52-priority,VerifiedRepresentative
+recover,自我再生,Recover,Normal,Status,0,0,5,0,Self,heal-half,1,9,false,false,src-pokeapi,VerifiedRepresentative
+swords-dance,剑舞,Swords Dance,Normal,Status,0,0,20,0,Self,attack-up-2,1,9,false,false,src-pokeapi,VerifiedRepresentative
+growl,叫声,Growl,Normal,Status,0,100,40,0,Opponent,attack-down-1,1,9,false,true,src-pokeapi,VerifiedRepresentative
+thunder-wave,电磁波,Thunder Wave,Electric,Status,0,90,20,0,Opponent,status-paralysis,1,9,false,false,src-pokeapi,VerifiedRepresentative
+toxic,剧毒,Toxic,Poison,Status,0,90,10,0,Opponent,status-bad-poison,1,9,false,false,src-pokeapi,VerifiedRepresentative
+will-o-wisp,磷火,Will-O-Wisp,Fire,Status,0,85,15,0,Opponent,status-burn,3,9,false,false,src-pokeapi,VerifiedRepresentative
+hypnosis,催眠术,Hypnosis,Psychic,Status,0,60,20,0,Opponent,status-sleep,1,9,false,false,src-pokeapi,VerifiedRepresentative
+sunny-day,大晴天,Sunny Day,Fire,Status,0,0,5,0,AllActive,weather-sun,2,9,false,false,src-52-weather,VerifiedRepresentative
+rain-dance,求雨,Rain Dance,Water,Status,0,0,5,0,AllActive,weather-rain,2,9,false,false,src-52-weather,VerifiedRepresentative
+sandstorm,沙暴,Sandstorm,Rock,Status,0,0,10,0,AllActive,weather-sandstorm,2,9,false,false,src-52-weather,VerifiedRepresentative
+snowscape,雪景,Snowscape,Ice,Status,0,0,10,0,AllActive,weather-snow,9,9,false,false,src-52-weather,VerifiedRepresentative
+electric-terrain,电气场地,Electric Terrain,Electric,Status,0,0,10,0,AllActive,terrain-electric,6,9,false,false,src-pokeapi,VerifiedRepresentative
+psychic-terrain,精神场地,Psychic Terrain,Psychic,Status,0,0,10,0,AllActive,terrain-psychic,7,9,false,false,src-pokeapi,VerifiedRepresentative
+bullet-seed,种子机关枪,Bullet Seed,Grass,Physical,25,100,30,0,Opponent,multi-hit-5,3,9,false,false,src-pokeapi,VerifiedRepresentative
+giga-drain,终极吸取,Giga Drain,Grass,Special,75,100,10,0,Opponent,drain-half,2,9,false,false,src-pokeapi,VerifiedRepresentative
+double-edge,舍身冲撞,Double-Edge,Normal,Physical,120,100,15,0,Opponent,recoil-third,1,9,true,false,src-pokeapi,VerifiedRepresentative
+dragon-rage,龙之怒,Dragon Rage,Dragon,Special,0,100,10,0,Opponent,fixed-40,1,7,false,false,src-pokeapi,VerifiedRepresentative
+roar,吼叫,Roar,Normal,Status,0,0,20,-6,Opponent,force-switch,1,9,false,true,src-pokeapi,VerifiedRepresentative
+flamethrower,喷射火焰,Flamethrower,Fire,Special,90,100,15,0,Opponent,damage-burn-10,1,9,false,false,src-pokeapi,VerifiedRepresentative
+surf,冲浪,Surf,Water,Special,90,100,15,0,AllOpponents,damage,1,9,false,false,src-pokeapi,VerifiedRepresentative
+thunderbolt,十万伏特,Thunderbolt,Electric,Special,90,100,15,0,Opponent,damage-paralysis-10,1,9,false,false,src-pokeapi,VerifiedRepresentative
+ice-beam,冰冻光束,Ice Beam,Ice,Special,90,100,10,0,Opponent,damage-freeze-10,1,9,false,false,src-pokeapi,VerifiedRepresentative
+earthquake,地震,Earthquake,Ground,Physical,100,100,10,0,AllOpponents,damage,1,9,false,false,src-pokeapi,VerifiedRepresentative
+shadow-ball,暗影球,Shadow Ball,Ghost,Special,80,100,15,0,Opponent,damage-spdef-down-20,2,9,false,false,src-pokeapi,VerifiedRepresentative
+psychic,精神强念,Psychic,Psychic,Special,90,100,10,0,Opponent,damage-spdef-down-10,1,9,false,false,src-pokeapi,VerifiedRepresentative
+close-combat,近身战,Close Combat,Fighting,Physical,120,100,5,0,Opponent,close-combat,4,9,true,false,src-pokeapi,VerifiedRepresentative
+dragon-claw,龙爪,Dragon Claw,Dragon,Physical,80,100,15,0,Opponent,damage,3,9,true,false,src-pokeapi,VerifiedRepresentative
+iron-head,铁头,Iron Head,Steel,Physical,80,100,15,0,Opponent,damage,4,9,true,false,src-pokeapi,VerifiedRepresentative
+moonblast,月亮之力,Moonblast,Fairy,Special,95,100,15,0,Opponent,damage-spatk-down-30,6,9,false,false,src-pokeapi,VerifiedRepresentative
+facade,硬撑,Facade,Normal,Physical,70,100,20,0,Opponent,damage,3,9,true,false,src-pokeapi,VerifiedRepresentative
+brick-break,劈瓦,Brick Break,Fighting,Physical,75,100,15,0,Opponent,damage,3,9,true,false,src-pokeapi,VerifiedRepresentative
+tera-blast,太晶爆发,Tera Blast,Normal,Special,80,100,10,0,Opponent,damage,9,9,false,false,src-pokeapi,ImplementedUnverified
+struggle,挣扎,Struggle,Normal,Physical,50,0,1,0,Opponent,recoil-quarter,1,9,true,false,src-showdown,VerifiedRepresentative
+fake-out,击掌奇袭,Fake Out,Normal,Physical,40,100,10,3,Opponent,damage,3,9,true,false,src-pokeapi,Planned
+u-turn,急速折返,U-turn,Bug,Physical,70,100,20,0,Opponent,damage,4,9,true,false,src-pokeapi,Planned
+stealth-rock,隐形岩,Stealth Rock,Rock,Status,0,0,20,0,Opponent,damage,4,9,false,false,src-pokeapi,Planned
+substitute,替身,Substitute,Normal,Status,0,0,10,0,Self,damage,1,9,false,false,src-pokeapi,Planned

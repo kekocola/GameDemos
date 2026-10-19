@@ -1,0 +1,9 @@
+id,nameZh,scope,duration,description,implementationStatus
+burn,灼伤,Pokemon,Persistent,物理伤害减半并在回合末失去HP,VerifiedRepresentative
+poison,中毒,Pokemon,Persistent,回合末失去最大HP的1/8,VerifiedRepresentative
+bad-poison,剧毒,Pokemon,Persistent,回合末伤害逐回合增加,VerifiedRepresentative
+paralysis,麻痹,Pokemon,Persistent,速度降低且25%不能行动,VerifiedRepresentative
+sleep,睡眠,Pokemon,1-3 turns,持续期间不能行动,VerifiedRepresentative
+freeze,冰冻,Pokemon,Persistent,每次行动前尝试解冻,VerifiedRepresentative
+protect,守住,Pokemon,Current turn,阻挡本回合对手招式,VerifiedRepresentative
+substitute,替身,Pokemon,Persistent,独立HP承受招式,Planned

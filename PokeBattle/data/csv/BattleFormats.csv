@@ -1,0 +1,3 @@
+id,nameZh,format,teamSize,activeSlots,fromGeneration,toGeneration,implementationStatus
+standard-singles,标准6v6单打,Singles,6,1,1,9,VerifiedRepresentative
+standard-doubles,标准6v6双打,Doubles,6,2,3,9,VerifiedRepresentative

@@ -1,0 +1,8 @@
+scenarioId,sequencePattern,eventType,assertion,implementationStatus
+damage-ice-example,after move,DamageApplied,damage greater than zero and includes breakdown,VerifiedRepresentative
+priority-quick-attack,first move,MoveUsed,moveId equals quick-attack,VerifiedRepresentative
+doubles-spread,turn events,DamageApplied,two opponent targets receive events,VerifiedRepresentative
+tera-once,first activation,SpecialActivated,action equals Terastallize,VerifiedRepresentative
+pvp-two-client,both choices locked,TurnStarted,turn advances only after both human sides submit,VerifiedRepresentative
+pve-test-dungeon,wave transition,DungeonWaveStarted,wave equals 2 and boss equals true,VerifiedRepresentative
+pve-test-dungeon,final victory,DungeonCompleted,rewardType equals TestToken and rewardAmount equals 100,VerifiedRepresentative

@@ -1,0 +1,2 @@
+id,nameZh,description,rulesetId,format,defaultPlayerTeamId,recommendedLevel,rewardType,rewardAmount,sourceId,implementationStatus
+test-training-ground,测试训练场,用于验证副本创建、AI波次、恢复、Boss和结算事件的两波测试副本,gen9-sv,Singles,modern-violet,10,TestToken,100,src-local-pve,VerifiedRepresentative

@@ -1,0 +1,7 @@
+order,id,nameZh,description,implementationStatus
+10,request,请求行动,服务器下发合法行动,VerifiedRepresentative
+20,lock,锁定选择,各方选择互相保密,VerifiedRepresentative
+30,sort,行动排序,换人优先后按优先度速度和种子破同速,VerifiedRepresentative
+40,execute,行动执行,逐行动重验合法性并产生事件,VerifiedRepresentative
+50,residual,回合末,天气异常状态道具与持续回合,VerifiedRepresentative
+60,faint,倒下与换人,处理胜负和后备替换,VerifiedRepresentative

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/PokeBattle.Domain/PokeBattle.Domain.csproj" />
+  <Project Path="src/PokeBattle.Server/PokeBattle.Server.csproj" />
+  <Project Path="tools/PokeBattle.ConfigCompiler/PokeBattle.ConfigCompiler.csproj" />
+  <Project Path="tests/PokeBattle.Tests/PokeBattle.Tests.csproj" />
+</Solution>

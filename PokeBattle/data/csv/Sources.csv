@@ -1,0 +1,8 @@
+id,title,url,accessedAt,usage
+src-52-damage,宝可梦百科-伤害,https://wiki.52poke.com/wiki/伤害,2026-08-09,伤害公式与取整
+src-52-priority,宝可梦百科-优先度,https://wiki.52poke.com/wiki/优先度,2026-08-09,行动优先度
+src-52-weather,Bulbapedia-Weather,https://bulbapedia.bulbagarden.net/wiki/Weather,2026-08-09,天气差异
+src-pokeapi,PokéAPI v2,https://pokeapi.co/docs/v2,2026-08-09,种族招式属性与图片地址
+src-showdown,Pokémon Showdown,https://github.com/smogon/pokemon-showdown,2026-08-09,代际差分与测试参考
+src-protocol,Showdown simulator protocol,https://github.com/smogon/pokemon-showdown/blob/master/sim/SIM-PROTOCOL.md,2026-08-09,协议与事件参考
+src-local-pve,PokeBattle本地测试副本,local://docs/pve-dungeons.zh-CN.md,2026-08-10,原创测试副本结构、波次与奖励元数据
